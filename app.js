@@ -4,6 +4,7 @@ var server = require('http').createServer(app);
 var io = require('socket.io').listen(server);
 
 app.get('/', function(req, res) {
+  // res.send('<h1>Hello World</h1>');
   res.sendFile(__dirname + '/index.html');
 });
 

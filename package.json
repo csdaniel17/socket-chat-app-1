@@ -2,7 +2,7 @@
   "name": "chat-app-yt",
   "version": "1.0.0",
   "description": "A chat app using Socket.io",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
